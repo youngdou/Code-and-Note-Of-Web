@@ -1,0 +1,68 @@
+body {
+	font-family: "微软雅黑";
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.instructions {
+	width: 800px;
+	margin: 0 auto;
+}
+.inform-pale {
+	width: 400px;
+	margin: 0 auto;
+}
+.inform-pale  div {
+	width: 400px;
+	margin: 10px 0;
+	text-align: right;
+}
+
+.sta {
+	float: left;
+}
+.output {
+	display: block;
+	width: 100px;
+	height: 21px;
+	border: 1px solid black;
+	float: right;
+}
+.startAndTime button {
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	background-color: #61CB91;
+}
+.theMoles {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.thePale {
+	width: 800px;
+	margin: 0 auto;
+}
+.row {
+	width: 100%;
+}
+.theMoles {
+	padding: 20px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.theMoles button {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #736353;
+	background-size: 80%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}

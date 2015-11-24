@@ -1,0 +1,116 @@
+body {
+	font-family: '微软雅黑';
+}
+h1, h2 {
+	text-align: center;
+}
+p {
+	width: 650px;
+	margin: 15px auto;
+}
+.theMaze {
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+}
+.wall {
+	background-color: #EEEEEE;
+	cursor: auto;
+}
+.wall-t {
+	background-color: #EEEEEE;
+	cursor: auto;
+}
+#tips {
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+}
+.wall:hover {
+	background-color: red;
+}
+.wall-t:hover {
+	background-color: #EEEEEE;
+}
+.block-1 {
+	width: 500px;
+	height: 50px;
+	border: 1px solid black;
+}
+.block-2 {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	border-top: 1px solid #EEEEEE;
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+.block-3 {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	border-top: 1px solid #EEEEEE;
+	position: absolute;
+	top: 50px;
+	right: -2px;
+}
+.block-4 {
+	width: 100px;
+	height: 150px;
+	border: 1px solid black;
+	border-bottom: 1px solid #EEEEEE;
+	position: absolute;
+	bottom: 51px;
+	left: 200px;
+	z-index: 1;
+}
+.block-5 {
+	width: 500px;
+	height: 50px;
+	border: 1px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid black;
+}
+#start {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #81FF7A;
+	position: absolute;
+	left: 0;
+	bottom: 54px;
+	font-size: 35px;
+	font-weight: 500;
+	text-align: center;
+}
+#door {
+	width: 10px;
+	height: 45px;
+	position: absolute;
+	right: 43px;
+	bottom: 52px;
+}
+#end {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #8886FF;
+	position: absolute;
+	right: -2px;
+	bottom: 54px;
+	font-size: 35px;
+	font-weight: 500;
+	text-align: center;
+}
+.theScore {
+	width: 100px;
+	height: 25px;
+	margin: 0 auto;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+}
