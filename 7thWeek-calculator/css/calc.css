@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	width: 480px;
+	height: 600px;
+	margin: 50px auto;
+	padding: 1px;
+	border-radius: 10px;
+	background-color: #222A35;
+	box-shadow: 10px 10px 5px #888888;
+}
+.screen {
+	width: 95%;
+	height: 120px;
+	border-radius: 5px;
+	margin: 10px auto;
+	background-color: #DEEBF7;
+	text-align: right;
+	font-family: "微软雅黑";
+	overflow: scroll;
+	overflow: overlay;
+}
+#screen-1 {
+	font-size: 70px;
+	height: 80px;
+}
+#screen-2 {
+	height: 40px;
+	font-size: 30px;
+}
+.button-group {
+	margin-top: 18%;
+}
+.button-group button {
+	width: 20%;
+	height: 10%;
+	margin-left: 2%;
+	margin-right: 1%;
+	border-radius: 10px;
+	border-style: none;
+	font-size: 30px;
+	color: #222A35;
+	background-color: #FFD966;
+	transition: 0.2s;
+	-moz-transition: 0.2s;	/* Firefox 4 */
+	-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+	-o-transition: 0.2s;	/* Opera */
+}
+.button-group button:focus {
+	outline-style: none;
+	background-color: #BF9000;
+}
+.button-group button:hover {
+	animation: shine 1s infinite;
+	-webkit-animation-animation: shine 1s infinite;
+}
+
+@keyframes shine {
+	0% {box-shadow: 0 0 10px 6px #8E9AAB;}
+	50% {box-shadow: 0 0 5px 2px #8E9AAB;}
+	100% {box-shadow: 0 0 10px 6px #8E9AAB;}
+}
+
+.line {
+	width: 95%;
+	margin: 3% auto;
+}
+#equal {
+	color: white;
+	background-color: #61CB91;
+}
+#equal:focus {
+	background-color:#31975F;
+}
+#delete {
+	color: white;
+	background-color: #FD5555;
+}
+#delete:focus {
+	background-color: #FF1F1F;
+}
+#clear {
+	color: white;
+	background-color: #FD5555;
+}
+#clear:focus {
+	background-color: #FF1F1F;
+}
