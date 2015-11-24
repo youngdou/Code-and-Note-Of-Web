@@ -1,0 +1,173 @@
+/*reset*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+h1 {
+	text-align: center;
+	margin: 30px;
+}
+.puzzle-panel {
+	width: 408px;
+	height: 408px;
+	margin: 0 auto;
+	background-color: #ccc;
+	position: relative;
+}
+.puzzle-panel img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+img {
+	cursor: pointer;
+	transition:0.15s;
+}
+img:hover {
+	width: 105px;
+	height: 105px;
+}
+#p11 {
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+#p12 {
+	position: absolute;
+	top: 0px;
+	left: 102px;
+}
+#p13 {
+	position: absolute;
+	top: 0px;
+	left: 204px;
+}
+#p14 {
+	position: absolute;
+	top: 0px;
+	left: 306px;
+}
+#p21 {
+	position: absolute;
+	top: 102px;
+	left: 0px;
+}
+#p22 {
+	position: absolute;
+	top: 102px;
+	left: 102px;
+}
+#p23 {
+	position: absolute;
+	top: 102px;
+	left: 204px;
+}
+#p24 {
+	position: absolute;
+	top: 102px;
+	left: 306px;
+}
+#p31 {
+	position: absolute;
+	top: 204px;
+	left: 0px;
+}
+#p32 {
+	position: absolute;
+	top: 204px;
+	left: 102px;
+}
+#p33 {
+	position: absolute;
+	top: 204px;
+	left: 204px;
+}
+#p34 {
+	position: absolute;
+	top: 204px;
+	left: 306px;
+}
+#p41 {
+	position: absolute;
+	top: 306px;
+	left: 0px;
+}
+#p42 {
+	position: absolute;
+	top: 306px;
+	left: 102px;
+}
+#p43 {
+	position: absolute;
+	top: 306px;
+	left: 204px;
+}
+#p44 {
+	position: absolute;
+	top: 306px;
+	left: 306px;
+	z-index: -1;
+	background-color: blue;
+}
+
+.button-group {
+	width: 408px;
+	height: 408px;
+	margin: 30px auto;
+}
+.stepSum {
+	text-align: center;
+	margin: 20px 0;
+}
+.left-input {
+	width: 60%;
+	text-align: right;
+	float: left;
+}
+.left-input button {
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+	outline: none;
+	background-color: #5B9BD5;
+	border-radius: 5px;
+	border: 1px solid #5B9BD5;
+	color: white;
+}
+.left-input input {
+	width: 203px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+.left-input span {
+	display: block;
+}
+.right-button {
+	width: 40%;
+	text-align: center;
+	float: right;
+}
+button {
+	cursor: pointer;
+}
+#begin {
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+	outline: none;
+	background-color: #00B050;
+	border-radius: 5px;
+	border: 1px solid #00B050;
+	color: white;
+}
+#origin {
+	width: 100px;
+	height: 30px;
+	outline: none;
+	background-color: #FF7C80;
+	border-radius: 5px;
+	border: 1px solid #FF7C80;
+	color: white;
+}
